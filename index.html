@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> <meta name="generator" content="Hugo 0.18.1" />
+    <title> Home  &middot; Hi, I&#39;m Herb</title>
+    
+    <link rel="stylesheet" href="/css/poole.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/hyde.css">
+    
+    <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/js/galleria-1.4.2.js"></script>
+    <script type="text/javascript">Galleria.loadTheme('/js/galleria.classic.min.js');</script>
+    
+    <link href="http://4leaf.me/index.xml" rel="alternate" type="application/rss+xml" title="Hi, I&#39;m Herb" />
+</head>
+
+
+<body>
+    <div class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <h1><a href="/">Hi, I&#39;m Herb</a></h1>
+            <p class="lead">
+                 A Developer, A Hiker, A Geek, Loving Tech., Movie. 
+            </p>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="/">Home</a></li>
+            
+            <li><a href="http://4leaf.me/avee"> Avee </a></li>
+            
+            <li><a href="/flickr"> Flickr </a></li>
+            
+            <li><a href="https://github.com/exherb"> Github </a></li>
+            
+            <li><a href="https://twitter.com/exherb"> Twitter </a></li>
+            
+        </ul>
+        <div class="footer">
+    <p>&copy; 2017. All rights reserved. </p>
+    <p>Powered By <a href="http://gohugo.io/">Hugo 0.18.1</a>
+        <p>
+</div>
+
+    </div>
+</div>
+
+    <div class="content container">
+        <div class="posts">
+             
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/post/ingress-ingress-the/">Ingress 新手指南</a>
+                </h1>
+                <span class="post-date">Wed, Apr 15, 2015</span> 
+ 
+
+<p><img src="/images/tumblr_nmuxpctBDd1tmchiso1_1280.jpg" alt="" /></p>
+
+<p>Ingress 的一个虚拟现实游戏，正如游戏口号一样 “The world around you is
+not what it
+seems”，一旦你理解了游戏的世界观，你会发现这是一个非常有趣的游戏。</p>
+
+<p>虽然我也是新手，但玩了这么几周，还是总结出了一些技巧，所以这篇文章会持续更新，如有纰漏错误烦请指出。</p>
+
+<p>Ingress 在大陆地区需要 VPN 才能正常游戏，而且地图会有偏移问题。</p>
+
+<h1 id="名词">名词</h1>
+
+<h2 id="基本">基本</h2>
+
+<ul>
+<li>Faction：阵营，目前一共有 绿军(Enlightened) 和 蓝军(Resistance)
+两大阵营。</li>
+<li>Codename：你的代号。</li>
+<li>AP(Access Point)：访问点，提高你的访问级别。占领
+Portal、Link、Control Field，Hack，安装 Resonator，Recharge 都能增加
+AP。</li>
+<li>XM(Exotic Matter) 外来物质，所有的动作都会消耗一定的
+XM，四处走动或使用 Power Cube 能增加 XM。</li>
+</ul>
+
+<h2 id="portal-相关">Portal 相关</h2>
+
+<ul>
+<li>Portal：这是游戏的基础元素，可以理解为据点，也是蓝绿阵营的争夺点，Portal
+标准参考
+<a href="https://support.google.com/ingress/answer/3066197?hl=zh-Hans">官方文档</a>，长按屏幕选择
+New Portal 可以提交新的 Portal</li>
+<li>Mod：特殊道具，提高 Portal 的某项属性</li>
+<li>Link：两个相同阵营的 Portal 可以建立链接，前提是你拥有被链接 Portal
+的 Key，且两个 Portal 都安装满 Resonator，注意 Link
+之间不能互相交叉，并且不能穿过地方 Control Field</li>
+<li>Control Field：当你链接了3个 Portal 组成三角形时，内部区域称之为
+Control Field，表示该区域被阵营所控制。</li>
+<li>Hack：从 Portal 中拿取道具，如果没有安装特殊 Mod，Hack 的冷却时间为
+5 分钟，4小时内最多能 Hack 4次</li>
+<li>Recharge：Resonator 每天的能量会减少 15%，如果能量耗尽， Resonator
+会消失，进而导致 Portal 变为中立，相关的 Link / Control Field
+失效，所以必须定期为 Resonator 充电。靠近 Portal 为其充电；拥有
+Portal Key 也能远程充电，但充电效能受距离影响</li>
+</ul>
+
+<h2 id="道具">道具</h2>
+
+<ul>
+<li>Resonator：谐振器，通过安装它来占领 Portal，提高 Portal 级别，防御
+Portal</li>
+<li>Power Cube：增加 XM</li>
+<li>Capsule：胶囊，装道具</li>
+<li>武器
+
+<ul>
+<li>Xmp Burst：炸弹，通过它炸掉敌方的 Resonator 让 Portal 变成中立</li>
+<li>Ultra Strike：范围很小，站在盾上则炸盾，站在 Resonator 上则炸
+Resonator，所以该道具效果会受到站位的影响</li>
+<li>ADA Refactor / Jarvis Virus：毒，改变 Portal 阵营</li>
+</ul></li>
+<li>Mod
+
+<ul>
+<li>Portal / AXA Shield：盾</li>
+<li>Link AMP：提高 Link 距离</li>
+<li>Heat Sink：减少 Hack 冷却时间</li>
+<li>Multi Hack：增加 Hack 次数</li>
+<li>Force AMP：增加攻击力</li>
+<li>Turret：增加攻击速度</li>
+</ul></li>
+</ul>
+
+<h1 id="技巧">技巧</h1>
+
+<ul>
+<li>对于在你家附近且位置没那么重要的 Portal
+你可以考虑不充电，让它们自然变成中立
+Portal，这样你可以再占领或Link一遍增加 AP</li>
+<li>长按 Hack 能进入Glyph Hack，通过玩一个小游戏获取更多道具；最好这样
+Hack，因为常规 Hack 得到的道具很少。</li>
+<li>如果你已经有了 某 Portal 的 Key，那么 Hack 不会再让你获得更多的
+Key。所以如果你想持有更多 Portal Key，在 Hack 前将所有该 Portal 的
+Key 扔掉或者放入胶囊</li>
+<li>长按 Recharge 会一次性尽可能的充满所有 Resonator</li>
+<li>每次充电无论充了多少都会给你 10 AP，所以如果你级别较低，你应该为每个
+Resonator 单独充电</li>
+<li>你可以通过 <a href="https://www.ingress.com/intel">https://www.ingress.com/intel</a> 来查看所有情报</li>
+</ul>
+
+<h1 id="参考">参考</h1>
+
+<ul>
+<li>Wiki：<a href="http://ingress.wikia.com">http://ingress.wikia.com</a></li>
+</ul>
+
+<p>via <a href="https://dayone.me/1FhVzL8">https://dayone.me/1FhVzL8</a></p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/quote/115246634332/">你不能只因为看别人把...</a>
+                </h1>
+                <span class="post-date">Wed, Apr 1, 2015</span> 
+ <blockquote>
+<p>你不能只因为看别人把自己的生活经营得很好，就去效仿他，说那就是你想要的人生。</p>
+</blockquote>
+
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjMzODAyMA==&amp;mid=206583062&amp;idx=1&amp;sn=9b1e08ec6a10f4b1d001ac00720dc77c&amp;scene=2&amp;from=timeline&amp;isappinstalled=0#rd">饭否精选</a></p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/quote/112683408517/">理解别人远比审判别人...</a>
+                </h1>
+                <span class="post-date">Wed, Mar 4, 2015</span> 
+ <blockquote>
+<p>理解别人远比审判别人更为快乐。</p>
+</blockquote>
+
+<p>斯蒂芬·茨威格</p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/post/112666252682/">阅读与时代价值观</a>
+                </h1>
+                <span class="post-date">Wed, Mar 4, 2015</span> 
+ <p>以下摘自 公开课 - <a href="https://class.coursera.org/rcd-002">紅樓夢(The Red Chamber
+Dream)/歐麗娟</a>
+第一週：超越自我──面對經典的態度/1-5 讀者之難（三）— 時代價值觀：貴族</p>
+
+<p>我们总是忍不住要来批判所谓的贵族阶级的豪奢，甚至仗势欺人。我们因此看到它负面的那个部分，而这个其实就是不自觉的受到我们现在这个时代观的引导。</p>
+
+<p>因为我们的时代观让我们反对阶级，让我们只看到阶级所造成的弊病，但是阶级真的只是如此而已吗？</p>
+
+<p>钱穆先生说</p>
+
+<blockquote>
+<p>今人论六朝 也就是魏晋南北朝这个时代的门第
+大都只看在它在政治上的特种优势 以及经济上面的特种凭借
+而未能注意到当时门第中人的生活实况 以及他的内心想象 因此所见浅薄</p>
+</blockquote>
+
+<p>究竟他们除了政治上的特种优势，以及经济上面的特种凭借之外，它还有什么是构成这个环境中的人物？他们真实的内心想象，以及他们的生活实况，他们的生活实况真的只有豪奢，只有浪费，只有上对下的欺压，还是他们其实也有上对下某一种谦卑的礼仪呢？而这个都是我们在没有好好的考察之前，就很容易就轻率的下了判断。因为那不符合我们现代的价值观，那么这也就会形成钱穆先生所感慨的，所见浅薄。</p>
+
+<p>via <a href="https://dayone.me/1suazfQ">https://dayone.me/1suazfQ</a></p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/post/112602459557/">意见与知识</a>
+                </h1>
+                <span class="post-date">Tue, Mar 3, 2015</span> 
+ <p>以下摘自 公开课 - <a href="https://class.coursera.org/rcd-002">紅樓夢(The Red Chamber
+Dream)/歐麗娟</a></p>
+
+<p>我们认识这个世界永远有许多的角度，而且每一个角度都可以让我们到达，也让我们认识到一个不一样的真理。但是只要它是真理，它就必须要反复检证，要必须深入，而且要能够自圆其说，要能够带给人更多的启发性。</p>
+
+<p>人其实最大的毛病，就是在于我们都很容易被蒙蔽。</p>
+
+<p>因为人太有限，但是却偏偏又很自以为是，觉得自己很聪明，自己看到了很多的东西，而忽略掉我们的视野永远是在一个有限的视角底下的。在这个有限的视角之下，我们所看到的就是一个事物的有限的部分，结果我们不去提醒自己，也不去要求自己，让我们在有限的观察之下所做的评论给予一个谨慎的对待，结果会任其意见，把这样子的一个蔽而自智的成果形成的意见加以放任，把他当作是真理。那么这么一来，当然就是所谓的把个人的好恶，把个人的成见当普遍的真理来面对，这当然是对这个世界或者是对事情真相的一种很大的扭曲。</p>
+
+<p>人们常常在这样的情况之下，把意见当真理，以至于不自觉地表现出来的就是，“处断一事，责诘一人，凭在己之意见，是其所是而非其所非。”</p>
+
+<p>意思就是，我们忽略掉成见都只是我们个人主观之下有限的认识，结果把它当成是一个事物的本质，或者是世间的真理，以至于就把它放大成为一种尚方宝剑，对别人失去了同情跟理解。然后对一件事情也忽略掉它还有很多其它我们没有看到的层次。</p>
+
+<p>这都是把自我过分地放大，把意见当作知识所造成的一种荒谬的结果。</p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/post/112457662992/">一件小事</a>
+                </h1>
+                <span class="post-date">Sun, Mar 1, 2015</span> 
+ <p>前天去看电影，从停车场出来的时候在收费口堵了大概快10多分钟。堵的原因并不是车太多，而是因为我前面的车。</p>
+
+<p>具体的原因我并不清楚。我看到的情况是，车里有人在用手机不停的给收费员拍照，期间还下车绕到车前给收费员拍照，通行杆也一直没有升起来，后面有好几台车辆一直在鸣笛催促。</p>
+
+<p>我对事情的具体经过并不完全了解，所以我本不该下任何结论。但是这件事确实对我以及后面很长的车流造成了不好的影响，所以我必须政治不正确的猜测整个事情经过，这样我才能够有所结论。</p>
+
+<p>可能的事情经过是这样的，前车有消费凭证，但是没有去换停车券，所以收费员不肯放行，前车也不愿意交上停车费，最后收费员因为拖的时间过长只好放行。</p>
+
+<p>如果我假设的事情经过属实，那么收费员的做法是无可厚非的，值得讨论的是前车的行为。前车似乎认为，后面很长的车流(应该超过百辆)里的很多人的时间比他自己的权益更重要，他给收费员拍照可能是通过微博或者其他曝光方式来威慑收费员放行，他似乎麻木到无法理解公共空间和私人空间的区别，以及给别人所带来的影响和不便。</p>
+
+<p>这几天微博朋友圈被各种事情轰炸，最后是柴静的《穹顶之下》，从互联网的趋势来看，似乎很多人在看了一个小时纪录片以后突然就构建起了完整的环保意识，前途一片光明。但当我回到现实，当我遇到这种事，国内的互联网和现实的之间巨大的差异，又突然让我心生寒意。如果连这种最基本的都做不好，我们还谈什么环保？还谈什么人权/女权，医患关系，医疗资源紧缺，学校教育，家庭教育和精细化管理。</p>
+
+<p>我不是想表达这些事情我们解决不了，我不是说孰是孰非。我只想说，每个人做好自己的事，更多的社会和政治参与，这个世界才会更美好。</p>
+
+<p>不去物化女性，不去地域歧视；了解医疗常识和医疗风险；给予医务人员更多的理解和关注；理解教师的辛劳和努力；学校或医疗系以及其他组织个人有违规违法行为敢于用正确的方式发声和抵制；不断丰满自己和自己的家庭，给子女以榜样。</p>
+
+<p>共勉。</p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/post/windows-markdown/">Windows 下的 Markdown 编辑器</a>
+                </h1>
+                <span class="post-date">Sun, Mar 1, 2015</span> 
+ 
+
+<h1 id="网页版">网页版</h1>
+
+<ul>
+<li><a href="http://maxiang.info/">马克飞象</a> ⚡️ ⭐️</li>
+<li><a href="http://dillinger.io/">dillinger</a> ⚡️🍻</li>
+<li><a href="https://stackedit.io">Stackedit</a> ⚡️($)</li>
+<li><a href="https://www.gitbook.com/">Gitbook</a> 写作出版平台</li>
+</ul>
+
+<h1 id="客户端">客户端</h1>
+
+<ul>
+<li><a href="http://pad.haroopress.com/">Haroopad</a></li>
+<li><a href="https://github.com/&gt; zhangshine/MdCharm/releases">MdCharm</a> ⚡️🍻</li>
+<li><a href="https://miu.0x142857.com/">Miu</a> 😲 🍻</li>
+<li>误(Mac Only)：<a href="http://usewhiskey.com/">Whiskey</a> 还没推出但值得期待</li>
+</ul>
+
+<p>⚡️ 支持 PDF 导出，⭐️ 为推荐，😲 站点被屏蔽，🍻 开源</p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/quote/a-life-is-like-a-garden-perfect-moments-can-be/">A life is ...</a>
+                </h1>
+                <span class="post-date">Sat, Feb 28, 2015</span> 
+ <blockquote>
+<p>A life is like a garden. Perfect moments can be had, but not
+preserved, except in memory. LLAP</p>
+</blockquote>
+
+<p>Leonard Nimoy</p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/post/112493703037/">“家”</a>
+                </h1>
+                <span class="post-date">Fri, Feb 27, 2015</span> 
+ <ul>
+<li>如今“你要去哪里”，远远比“你来自哪里”重要。</li>
+<li>家根本无法指向任何建筑物，家只存在于心里。用感情铸成的家，远比用泥土铸成的家更能称之为“家”。</li>
+<li>“家”就像身份证一样并没想象中那么重要，就像你从哪里出发不重要一样,给你一扇任意门,你要知道你要到哪里才是重点。</li>
+<li>家是一项进行着的工作，他们不断地将它更新、完善、修正。</li>
+<li>那些明明拥有很多却贪婪的人，比拥有很少的人更加贫穷。</li>
+<li>只有停止步伐,我们才能看得见未来的路,只有暂时跨出你的生活圈,才能拓宽世界,找到居住的房子。</li>
+<li>家，说到底，不仅仅是你居住的地方，而是你立足的地方。</li>
+</ul>
+
+<p>via <a href="https://dayone.me/1s0XzjW">https://dayone.me/1s0XzjW</a></p>
+
+            </div>
+              
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="http://4leaf.me/quote/107397210047/">要挣钱，要养家，要过...</a>
+                </h1>
+                <span class="post-date">Wed, Jan 7, 2015</span> 
+ <blockquote>
+<p>要挣钱，要养家，要过好日子，当时就那个水平，别人也都那么干，限制太多，给钱太少，社会不开明，市场不成熟，都是理由。但今天谁要听这些理由？大家只看结果，任何理由没有，这就是你干的，你的历史。万人空巷都成了过眼云烟，纸上你的脸和吹捧都搓了鞭炮，挣的钱也花光了，往上爬熬的夜着的急遭的罪受的累都不作数了，羡慕你的人嫉妒你的人奉承你的人表扬你的人也都不见了，见了也没话了。</p>
+</blockquote>
+
+<p><a href="http://site.douban.com/chenlee/">陈粒</a></p>
+
+            </div>
+              
+    
+    <ul class="pagination">
+        
+        <li>
+            <a href="/" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+        </li>
+        
+        <li
+        class="disabled">
+        <a href="" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+        </li>
+        
+        <li
+        class="active"><a href="/">1</a></li>
+        
+        <li
+        ><a href="/page/2/">2</a></li>
+        
+        <li
+        ><a href="/page/3/">3</a></li>
+        
+        <li
+        ><a href="/page/4/">4</a></li>
+        
+        <li
+        >
+        <a href="/page/2/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+        </li>
+        
+        <li>
+            <a href="/page/4/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        </li>
+        
+    </ul>
+    
+        </div>
+    </div>
+    <div class="footer">
+    <p>&copy; 2017. All rights reserved. </p>
+    <p>Powered By <a href="http://gohugo.io/">Hugo 0.18.1</a>
+        <p>
+</div>
+
+</body>
+
+</html>

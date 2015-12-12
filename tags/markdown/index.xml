@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Hi, I&#39;m Herb</title>
+    <link>http://4leaf.me/tags/markdown/index.xml</link>
+    <description>Recent content in Markdown on Hi, I&#39;m Herb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://4leaf.me/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Windows 下的 Markdown 编辑器</title>
+      <link>http://4leaf.me/post/windows-markdown/</link>
+      <pubDate>Sun, 01 Mar 2015 13:50:58 +0000</pubDate>
+      
+      <guid>http://4leaf.me/post/windows-markdown/</guid>
+      <description>
+
+&lt;h1 id=&#34;网页版&#34;&gt;网页版&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://maxiang.info/&#34;&gt;马克飞象&lt;/a&gt; ⚡️ ⭐️&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dillinger.io/&#34;&gt;dillinger&lt;/a&gt; ⚡️🍻&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackedit.io&#34;&gt;Stackedit&lt;/a&gt; ⚡️($)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gitbook.com/&#34;&gt;Gitbook&lt;/a&gt; 写作出版平台&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;客户端&#34;&gt;客户端&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://pad.haroopress.com/&#34;&gt;Haroopad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&amp;gt; zhangshine/MdCharm/releases&#34;&gt;MdCharm&lt;/a&gt; ⚡️🍻&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://miu.0x142857.com/&#34;&gt;Miu&lt;/a&gt; 😲 🍻&lt;/li&gt;
+&lt;li&gt;误(Mac Only)：&lt;a href=&#34;http://usewhiskey.com/&#34;&gt;Whiskey&lt;/a&gt; 还没推出但值得期待&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;⚡️ 支持 PDF 导出，⭐️ 为推荐，😲 站点被屏蔽，🍻 开源&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

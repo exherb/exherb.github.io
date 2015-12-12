@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>远程 on Hi, I&#39;m Herb</title>
+    <link>http://4leaf.me/tags/%E8%BF%9C%E7%A8%8B/index.xml</link>
+    <description>Recent content in 远程 on Hi, I&#39;m Herb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://4leaf.me/tags/%E8%BF%9C%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>远程工作者</title>
+      <link>http://4leaf.me/post/103714245167/</link>
+      <pubDate>Thu, 27 Nov 2014 10:26:00 +0000</pubDate>
+      
+      <guid>http://4leaf.me/post/103714245167/</guid>
+      <description>
+
+&lt;p&gt;听了最新一期的 &lt;a href=&#34;http://teahour.fm/2014/11/25/thoughts-about-remote-life.html&#34;&gt;Tea Hour&lt;/a&gt;，同样作为远程工作者，回想起过去两年的经历，感同身受的地方颇多。&lt;/p&gt;
+
+&lt;h1 id=&#34;自由和自我管理&#34;&gt;自由和自我管理&lt;/h1&gt;
+
+&lt;p&gt;远程工作的确非常自由，你没有通勤时间，你可以每天10点睡觉6点起床，也可以2点睡觉10点起床；你可以出去玩一整周，回来再工作一整周。但是这种“自由”带来的后果就是极其糟糕的生活习惯，还会影响到你的工作效率和精神状态。对一个无法自我管理的人而言，这必然是一场灾难，所以远程工作并不适合所有人。&lt;/p&gt;
+
+&lt;p&gt;在我刚开始远程工作的时候，经常写代码写到凌晨3、4点，经常忘记吃中饭，晚饭可能也是草草了事，这些再加上生活中发生的其他事情，都给我带来过不少困扰。&lt;/p&gt;
+
+&lt;p&gt;我依然没有完全适应，但是我觉得我在持续的解决这些问题。&lt;/p&gt;
+
+&lt;p&gt;关于工作过量的问题，当时团队在用一个 Trello
+的项目管理工具，我发现这种简单的列表方式对我来说非常有用，我可以规划近期的特性，尽量细分成
+1-2
+个小时就能解决的条目，如果我被打断了，比如要做饭，我就在条目下添加一些
+comment 来提醒我的工作进度。&lt;/p&gt;
+
+&lt;p&gt;关于作息规律的问题，我一直都只能用强迫自己的方式来解决。作为 RSS重度用户，每天的 unread 都是 1000+；作为美剧爱好者，每两三天基本就有一部美剧要追；作为电影爱好者，下载的电影得花时间看；还有花钱买的书、未听的Podcast。然而这些事情，如果用碎片时间来做的话，基本就等于没做，所以时间永远是不够用的。不过最近开始跑步以后，每周有4-5天要跑步，时间更少了，只好减少了 RSS / Podcast
+订阅，停追了好几部美剧，但是运动提升了精神状态，改善了睡眠质量，作息反倒规律了不少，而且跑步这种个人挑战养成习惯后，越来越让人欲罢不能了 😆。&lt;/p&gt;
+
+&lt;h1 id=&#34;社交和孤独&#34;&gt;社交和孤独&lt;/h1&gt;
+
+&lt;p&gt;远程工作者注定是“孤独”的，但是如同这期 &lt;a href=&#34;http://teahour.fm/2014/11/25/thoughts-about-remote-life.html&#34;&gt;Tea Hour&lt;/a&gt; 所说，人都是孤独的，关键在于你如何解决这个问题？&lt;/p&gt;
+
+&lt;p&gt;亲朋好友的聚餐真的不能算是社交，因为几乎没有任何交流，也没有人真正的投入了时间和精力。真正的社交是需要投入时间和精力的，你不能仅仅是一个参与者，你也需要去做一个组织者。真正的社交是找到和你气味相投的人，或者同样有足够了解并愿意交流的观点的人，和他们成为朋友，形成社交圈，和他们深入的交流，而不是座谈会或者讲座。&lt;/p&gt;
+
+&lt;p&gt;然而很遗憾的是，对于我来说，长沙的互联网和技术土壤，很难找到这样的人。或许你有更好的建议？&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
