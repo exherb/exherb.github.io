@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "sidebar.html" . }}
+    <div class="content container">
+        <ul class="posts">
+            {{ range .Paginator.Pages }}
+            <li>
+                <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+            </li>
+            {{ end }}
+        </ul>
+        {{ template "_internal/pagination.html" . }}
+    </div>
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{{ if .Params.photos }}
+<div class="photos-container">
+    <div class="photos-dummy"></div>
+    <div class="photos-set" id="photos-set-{{ replace .RelPermalink "/" "-" }}">
+        {{ range .Params.photos }}
+        <a href="{{ .UrlMedium }}">
+            <img src="{{ .Thumbnail }}" , data-big="{{ .Url }}" data-title="{{ with .title }}{{ . }}{{else}}{{ $.Title }}{{ end }}" data-description="{{ .Date }}">
+        </a>
+        {{end}}
+    </div>
+</div>
+<script type="text/javascript">
+Galleria.run('#photos-set-{{ replace .RelPermalink "/" "-" }}');
+$('#photos-set-{{ replace .RelPermalink "/" "-" }}').dblclick(function() {
+    $.data( this, 'galleria' ).enterFullscreen();
+});
+</script>
+{{ end }}

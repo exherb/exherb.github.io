@@ -1,0 +1,19 @@
+baseurl = "http://4leaf.me/"
+languageCode = "zh-CN"
+title = "Hi, I'm Herb"
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/exherb"
+[[menu.main]]
+  name = "Twitter"
+  url = "https://twitter.com/exherb"
+[[menu.main]]
+  name = "Flickr"
+  url = "/flickr"
+[[menu.main]]
+  name = "Avee"
+  url = "http://4leaf.me/avee"
+[params]
+  Description = "A Developer, A Hiker, A Geek, Loving Tech., Movie."
+  disqusShortname = "exherb"
+  flickrUsername = "ex-herb"
