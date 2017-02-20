@@ -8,9 +8,6 @@ title = "Hi, I'm Herb"
   name = "Twitter"
   url = "https://twitter.com/exherb"
 [[menu.main]]
-  name = "Flickr"
-  url = "/flickr"
-[[menu.main]]
   name = "Avee"
   url = "http://4leaf.me/avee"
 [params]
