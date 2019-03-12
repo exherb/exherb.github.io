@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/iherb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://4leaf.me
+  * I am iherb (https://keybase.io/iherb) on keybase.
+  * I have a public key ASCklF3ghWt6T1NULep9Y_LZilpqSWsBRPW5ajojgPPXyAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120728ce8a1019a5a7cb834144e0111e44eca9994ff4bf37497f1db1e6d6ef9c5b20a",
+      "host": "keybase.io",
+      "kid": "0120a4945de0856b7a4f53542dea7d63f2d98a5a6a496b0144f5b96a3a2380f3d7c80a",
+      "uid": "b0eee81fafb70dea8c386cb145f61119",
+      "username": "iherb"
+    },
+    "merkle_root": {
+      "ctime": 1552355712,
+      "hash": "7ab6e3ba0298e11ac7e6b0f7c833b185e6af5ea2f16541d85de12c2b3da651baf778dc37b698763c0983ae003b143c7220ed12fd2a1f3612f387e788d29286a3",
+      "hash_meta": "d393761da38aee7873d69ffe900a22e406eaa4433945f6e11887a63a8d7413ff",
+      "seqno": 4926274
+    },
+    "service": {
+      "entropy": "DYSymd7xOOQUNuaQfE4+C6hT",
+      "hostname": "4leaf.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.0"
+  },
+  "ctime": 1552355755,
+  "expire_in": 504576000,
+  "prev": "fe6dacf3620829396f49c6b7c11ac732b5a7bfa348901164a9fabc4723ac1750",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpJRd4IVrek9TVC3qfWPy2YpaaklrAUT1uWo6I4Dz18gKp3BheWxvYWTESpcCEsQg/m2s82IIKTlvSca3wRrHMrWnv6NIkBFkqfq8RyOsF1DEIAeMh2Ug/hdswgwtYV3LSZP+QvacAdxtQ7kzMmwW/S1+AgHCo3NpZ8RAi8I3IU79IHztZRGi+l0/CNfhTqUju6KSp9wdVZUjHmSp/PgRJykwiLRoxuMho0YvKL/iYo8NB39vVHW74KEjA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHC7lbOgojseDMoNREtJjnpqC10ydVpxlYabZUDjDuQoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iherb
+
+==================================================================
